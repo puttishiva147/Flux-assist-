@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">AssistX</string>
+    <string name="app_tagline">Assistive Floating Ball</string>
+
+    <!-- Permissions and Descriptions -->
+    <string name="permission_overlay_title">Display Over Other Apps</string>
+    <string name="permission_overlay_desc">Required to show the floating assistive ball above other applications on your screen.</string>
+    <string name="permission_accessibility_title">Accessibility Service</string>
+    <string name="permission_accessibility_desc">Used solely to execute global navigation actions like Back, Recents, Screenshot, and Lock Screen at your request. No personal data is read or collected.</string>
+    <string name="permission_notification_title">Notifications</string>
+    <string name="permission_notification_desc">Allows AssistX to maintain a reliable background service and quick control tile.</string>
+    <string name="permission_camera_title">Camera / Flashlight</string>
+    <string name="permission_camera_desc">Required to toggle the device flashlight shortcut.</string>
+    <string name="permission_write_settings_title">Modify System Settings</string>
+    <string name="permission_write_settings_desc">Required to adjust system screen brightness directly from the shortcut menu.</string>
+
+    <!-- Actions -->
+    <string name="action_back">Back</string>
+    <string name="action_home">Home</string>
+    <string name="action_recents">Recent Apps</string>
+    <string name="action_screenshot">Screenshot</string>
+    <string name="action_lock_screen">Lock Screen</string>
+    <string name="action_volume_up">Volume +</string>
+    <string name="action_volume_down">Volume -</string>
+    <string name="action_brightness">Brightness</string>
+    <string name="action_flashlight">Flashlight</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_notifications">Notifications</string>
+    <string name="action_quick_settings">Quick Settings</string>
+    <string name="action_frequent_app">Frequently Used</string>
+
+    <!-- Notification Service -->
+    <string name="channel_name">Flux Assist Floating Service</string>
+    <string name="channel_desc">Keeps the floating Flux Assist ball active when backgrounded</string>
+    <string name="notification_title">Flux Assist is Active</string>
+    <string name="notification_text">Flux Assist ball is running • Radial menu accessible</string>
+    <string name="notification_action_toggle">Hide/Show</string>
+    <string name="notification_action_stop">Stop</string>
+
+    <!-- Device Admin -->
+    <string name="device_admin_description">Allows AssistX to lock the screen when you tap the Lock Screen shortcut.</string>
+</resources>

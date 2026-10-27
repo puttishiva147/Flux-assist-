@@ -1,0 +1,6 @@
+{
+  "name": "AssistX",
+  "description": "Assistive floating bar & Flux Assist ball utility with persistent Foreground Service, bouncy spring-physics radial menu, Glassmorphism RenderEffect blur, and quick app shortcuts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
